@@ -1,0 +1,51 @@
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #282f3a;
+    box-shadow: 0 0 10px rgba(124, 98, 98, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    color: #fcfbfb;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri , 'Trebuchet MS', sans-serif;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #cfc3c3;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: inline-block;
+    margin-top: 10px;
+    padding:10px 30px;
+    background-color: #3d3de3;
+    color: #f1f1f1;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0037ff;
+}
+

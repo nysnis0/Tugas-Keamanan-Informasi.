@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Tugas Keamanan Informasi </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kriptografi Modern</h1>
+        <h3>Advanced Encryption Standard  </h3>
+        <label for="key">Key:</label> 
+        <input type="text" id="key" autofocus>
+        <label for="plaintext">Plaintext/Chipertext:</label>
+        <input type="text" id="plaintext" >
+        <button onclick="encrypt()">Enkripsi</button> 
+        <button onclick="decrypt()">Dekripsi</button>
+        <label for="hasil">Result:</label>
+        <input type="text" id="hasil">
+        <button onclick="resetForm()">Reset</button>
+        
+        <div class="progress-bar" style="--width:50"
+        data-label=" Loading..."></div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+</body>
+</html>
